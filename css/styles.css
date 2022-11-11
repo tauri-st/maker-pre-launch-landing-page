@@ -16,29 +16,29 @@ h1, h2, h3, h3 {
   font-weight: 800;
 }
 
-h1 {
+.heading-xl {
   font-size: 3rem;
   font-variant: small-caps;
   line-height: 3.5rem;
 }
 
-h2 {
+.heading-l {
   font-size: 2.5rem;
   line-height: 3.4375rem;
 }
 
-h1.mob-tab-heading {
+.heading-m {
   font-size: 2rem;
   line-height: 2.75rem;
 }
 
-.special-categories {
-  font-size: 1.125rem;
-  line-height: 1.5625rem;
+.heading-s {
+  font-size: 1.5rem
 }
 
-.plans-heading {
-  font-size: 1.5rem;
+.heading-xs {
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
 }
 
 p {
@@ -59,4 +59,8 @@ html {
 body {
   background-color: var(--black);
   font-family: 'Manrope', sans-serif;
+}
+
+.heading-m .love {
+  color: var(--light-cyan);
 }
